@@ -1,7 +1,24 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/services/nrel_service.rb": [
+      "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/models/station.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        11,
+        11,
+        11,
+        11,
+        11,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/controllers/welcome_controller.rb": [
         1,
         1,
         null,
@@ -9,61 +26,44 @@
         null
       ],
       "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/controllers/application_controller.rb": [
-        0,
+        1,
         null,
         null,
-        0,
-        0
+        1,
+        null
       ],
       "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/controllers/search_controller.rb": [
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
         null,
-        0,
         null,
-        0,
+        1,
         null,
-        0,
+        1,
         null,
-        0,
-        0,
-        0,
-        0,
-        0
+        1,
+        10,
+        null,
+        null,
+        null
       ],
-      "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/controllers/welcome_controller.rb": [
-        0,
-        0,
+      "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/services/nrel_service.rb": [
+        1,
+        1,
         null,
-        0,
-        0
+        null,
+        null
       ],
       "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/helpers/application_helper.rb": [
         0,
         0
-      ],
-      "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/models/station.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1508347265
+    "timestamp": 1508347337
   }
 }
