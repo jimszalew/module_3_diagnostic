@@ -2,9 +2,9 @@
   <% @stations.each do |station| %>
     <div class='station'>
       <h3 class= 'name'><%= station.name %></h3>
-      <p class= 'address'><%= station.address %></p>
-      <p class= 'fuel_types'><%= station.fuel_types %></p>
-      <p class= 'distance'><%= station.distance %></p>
-      <p class= 'access_times'><%= station.access_times %></p>
+      <p class= 'address'>Address: <%= station.address %></p>
+      <p class= 'fuel_types'>Fuel Types: <%= station.fuel_types %></p>
+      <p class= 'distance'>Distance: <%= station.distance %> miles</p>
+      <p class= 'access_times'>Access Times: <%= station.access_times %></p>
     </div>
   <% end %>

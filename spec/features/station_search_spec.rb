@@ -22,8 +22,12 @@ RSpec.describe 'A user visits the root path' do
           expect(page).to have_css('.distance')
           expect(page).to have_css('.access_times')
         end
-        # And the stations should be limited to Electric and Propane
 
+        expect(page).to_not have_content('BD')
+        expect(page).to_not have_content('CNG')
+        expect(page).to_not have_content('E85')
+        expect(page).to_not have_content('HY')
+        expect(page).to_not have_content('LNG')
       end
     end
   end
