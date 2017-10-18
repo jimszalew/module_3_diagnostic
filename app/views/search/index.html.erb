@@ -1,4 +1,4 @@
-<h1>10 Stations within 6 miles</h1>
+<h1><%= @stations.count %> Stations within 6 miles</h1>
   <% @stations.each do |station| %>
     <div class='station'>
       <h3 class= 'name'><%= station.name %></h3>
