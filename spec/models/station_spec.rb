@@ -47,6 +47,13 @@ RSpec.describe Station, type: :model do
           expect(station.access_times).to eq "some time ago"
         end
       end
+      context '.filter_by_zip' do
+        it 'returns stations filtered by zipcode' do
+          stations = Station.filter_by_zip('80203')
+          expect(stations.count).to eq 10
+          expect(stations.first).to be_a Station
+        end
+      end
     end
   end
 end

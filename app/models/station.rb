@@ -12,4 +12,11 @@ class Station < ActiveRecord::Base
     @distance     = station_data[:distance]
     @access_times = station_data[:access_days_time]
   end
+
+  def self.filter_by_zip(zip)
+    json_stations = NrelService.stations_by_zip(zip)
+    json_stations.map do |station|
+      Station.new(station)
+    end
+  end
 end

@@ -10,11 +10,18 @@
         null,
         null,
         1,
-        11,
-        11,
-        11,
-        11,
-        11,
+        26,
+        26,
+        26,
+        26,
+        26,
+        null,
+        null,
+        1,
+        2,
+        2,
+        20,
+        null,
         null,
         null
       ],
@@ -36,26 +43,14 @@
         1,
         1,
         1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        10,
-        null,
         null,
         null
       ],
       "/Users/jimszalewski/turing/final_module/exams/alt-fuel-finder/app/services/nrel_service.rb": [
         1,
         1,
-        null,
+        3,
+        3,
         null,
         null
       ],
@@ -64,6 +59,6 @@
         0
       ]
     },
-    "timestamp": 1508347337
+    "timestamp": 1508521685
   }
 }
