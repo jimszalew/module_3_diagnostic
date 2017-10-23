@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'NrelService' do
 
-  context 'class_methods' do
+  context 'instance_methods' do
     context '.stations_by_zip' do
       it 'returns an array of stations filtered by zip code' do
         raw_stations = NrelService.stations_by_zip('80203')
